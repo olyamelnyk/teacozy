@@ -1,0 +1,102 @@
+/* Universal Styles */
+
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+}
+
+h2, h4 {
+  margin: 10px auto;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav span {
+  margin: 20px;
+}
+
+/* Mission */
+.mission {
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  position: relative;
+  top: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.our-mission {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Featured Tea */
+
+.featured {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.picture img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 0;
+}
+
+.picture {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.berry, .rum, .ave {
+  margin-right: 50px;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
